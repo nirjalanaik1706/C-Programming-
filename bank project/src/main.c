@@ -1,10 +1,6 @@
 #include"../include/data.h"
 int main()
-{   
-    // variable are pushed on stack 
-    // dynamic memory is allocated on heap
-    //dynamic memory allocation
-    //Memory is allocated on heap
+{  
      struct Customer * pcustomer=(struct Customer *)malloc(sizeof(struct Customer));
     acceptData(pcustomer);
     printData(pcustomer);
