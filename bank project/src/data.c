@@ -1,7 +1,6 @@
  #include"../include/data.h"
 
-//Pointer is variable which stores address of memory location
-//normal variable stored actual value inside
+
 
 void acceptData( struct Customer *  cust )
 {
@@ -27,7 +26,6 @@ void acceptData( struct Customer *  cust )
     printf( "\n  Enter Initial Balance : ");
     scanf("%d",&balance);
 
-    //copy local variables data into structure element varialbles
     strcpy(cust->name, name);
     strcpy(cust->village, village);
     cust->account_number=acctno; 
